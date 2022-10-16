@@ -11,12 +11,12 @@ function abrir() {
 
   window.scrollTo(0, 0);
   setTimeout(function () {
+    play.audio();
     document.getElementById("logo").classList.add("hide");
     document.getElementById("hoja-principal").classList.add("hide");
     document.getElementById("invitacion").classList.remove("hide");
     document.getElementById("name").classList.add("animate__zoomIn");
     document.getElementById("xv").classList.add("animate__slideInUp");
-    audio.play();
   }, 2500);
 }
 
