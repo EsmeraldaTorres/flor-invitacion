@@ -24,13 +24,13 @@ function abrir() {
 
 playPause.addEventListener("click", () => {
   if (audio.paused || audio.ended) {
-    playPause.querySelector(".pause-btn").classList.toggle("d-none");
     playPause.querySelector(".play-btn").classList.toggle("d-none");
+    playPause.querySelector(".pause-btn").classList.toggle("d-none");
     audio.play();
   } else {
     audio.pause();
-    playPause.querySelector(".pause-btn").classList.toggle("d-none");
     playPause.querySelector(".play-btn").classList.toggle("d-none");
+    playPause.querySelector(".pause-btn").classList.toggle("d-none");
   }
 });
 
