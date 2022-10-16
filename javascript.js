@@ -11,7 +11,7 @@ function abrir() {
 
   window.scrollTo(0, 0);
   setTimeout(function () {
-    play.audio();
+    audio.play();
     document.getElementById("logo").classList.add("hide");
     document.getElementById("hoja-principal").classList.add("hide");
     document.getElementById("invitacion").classList.remove("hide");
