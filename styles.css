@@ -694,7 +694,7 @@ a:hover {
   background-image: url("./assets/img/pexels-karolina-grabowska-4862892.jpg");
 }
 .card {
-  width: 80%;
+  width: 100%;
   padding: 2rem;
   display: flex;
   align-items: center;
