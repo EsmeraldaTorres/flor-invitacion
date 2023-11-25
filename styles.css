@@ -237,7 +237,7 @@ button:focus {
   border-radius: 100%;
 }
 .text-invitation {
-  font-size: 1.4rem !important;
+  font-size: 1.6rem !important;
 }
 .player-btn {
   bottom: 2rem;
@@ -638,7 +638,7 @@ a:hover {
 
 .card-regalos {
   color: white;
-  margin: 2rem 0;
+  margin: 1rem 0 2rem;
   height: 80%;
   width: 100%;
   /* background-color: rgba(156, 163, 116, 0.568); */
