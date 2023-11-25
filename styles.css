@@ -29,7 +29,7 @@
   overflow: hidden;
 }
 .display-3 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .font-paris {
   font-family: "Parisienne", cursive;
@@ -149,6 +149,7 @@ button:focus {
     url("./assets/img/pexels-madison-inouye-1831234.jpg");
   padding: 0;
   margin: 0;
+  font-size: 2rem;
   background-size: cover;
   background-position: top;
 }
@@ -234,6 +235,9 @@ button:focus {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 100%;
+}
+.text-invitation {
+  font-size: 1.4rem !important;
 }
 .player-btn {
   bottom: 2rem;
@@ -682,6 +686,9 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
+.text-infor {
+  font-size: 1.8rem;
+}
 .window-2 {
   color: white;
   height: 100vh;
@@ -774,7 +781,7 @@ a:hover {
     padding-right: 0 !important;
   }
   .display-3 {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   .title-principal {
     font-size: 3.5rem;
@@ -824,7 +831,7 @@ a:hover {
     font-size: 3rem;
   }
   .display-3 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   .display-1 {
     font-size: 9rem !important;
