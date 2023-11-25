@@ -766,7 +766,7 @@ a:hover {
   background-position: center;
 }
 .marca {
-  color: rgba(244, 244, 248, 0.873);
+  color: rgb(244 244 248 / 74%);
 }
 @media (min-width: 470px) {
   .name {
