@@ -79,6 +79,9 @@
   padding: 0;
   margin: 0;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-position: top;
 }
 
@@ -151,6 +154,9 @@ button:focus {
   margin: 0;
   font-size: 2rem;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-position: top;
 }
 .img-fecha {
@@ -193,6 +199,9 @@ button:focus {
     ),
     url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -217,6 +226,9 @@ button:focus {
     ),
     url("./assets/img/renata1.jpeg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -260,6 +272,9 @@ button:focus {
   max-width: 100%;
   background-image: url("./assets/img-j-ignacio/");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -332,8 +347,10 @@ hr {
   margin: 0;
   padding: 0;
   background-color: rgb(216, 186, 186);
-  /* background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg"); */
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
@@ -350,6 +367,9 @@ hr {
   background-color: rgb(216, 186, 186);
   /* background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg"); */
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
@@ -362,9 +382,12 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./assets/img/renata.jpeg");
+  background-image: url("./assets/img/renata5.jpeg");
 }
 .window-back3 {
   height: 100vh;
@@ -372,6 +395,9 @@ hr {
   padding: 0;
   background-image: url("./assets/img/renata2.jpeg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -388,6 +414,9 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
@@ -404,6 +433,9 @@ hr {
   justify-content: center;
   align-items: right;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
@@ -476,6 +508,9 @@ hr {
     ),
     url("./assets/img/fiesta.png");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -486,6 +521,9 @@ hr {
   margin: 0;
   background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -496,6 +534,9 @@ hr {
   margin: 0;
   background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -511,6 +552,9 @@ hr {
     ),
     url("./assets/img/salon3.jpg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -625,6 +669,9 @@ button:hover {
     ),
     url("./assets/img/renata4.jpeg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -658,6 +705,9 @@ a:hover {
   color: white;
   background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -670,6 +720,9 @@ a:hover {
   color: white;
   background-image: url("./assets/img/pexels-madison-inouye-1831234.jpg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -683,6 +736,9 @@ a:hover {
   background-image: url("./assets/img/Regina-5.jpeg");
   background-attachment: fixed;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -712,6 +768,9 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-image: url("./assets/img/pexels-madison-inouye-1831234.jpg");
 }
 .familiares-information2 {
@@ -722,6 +781,9 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-image: url("./assets/img/pexels-madison-inouye-1831234.jpg");
 }
 .card {
@@ -750,6 +812,9 @@ a:hover {
   justify-content: center;
   align-items: center;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -769,6 +834,9 @@ a:hover {
     ),
     url("./assets/img/renata3.jpeg");
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
 }
