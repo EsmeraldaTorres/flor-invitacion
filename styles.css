@@ -69,13 +69,17 @@
 .sobre {
   height: 100vh;
   width: 80vw;
-  /* z-index: 1; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .bg-dark-black {
-  background-color: rgb(146, 182, 235);
+  background-color: rgb(235, 193, 198);
+  background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: top;
 }
 
 .animate__animated.animate__fadeOut {
@@ -94,7 +98,6 @@
   display: block;
   min-width: 100%;
   max-width: 100%;
-  vertical-align: middle;
   border-style: none;
 }
 .z-index-2 {
@@ -105,7 +108,6 @@
   display: block;
   min-width: 100%;
   max-width: 100%;
-  vertical-align: middle;
   border-style: none;
 }
 button {
@@ -125,8 +127,8 @@ button:focus {
   border: none;
 }
 .btn-open img {
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
   padding-top: 7rem;
 }
 .hide {
@@ -139,12 +141,16 @@ button:focus {
 }
 /* Cuando */
 .cuando {
-  height: 100vh;
-  background-image: url("./assets/img/pexels-karolina-grabowska-4862892.jpg");
+  height: 90vh;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.044),
+      rgba(5, 7, 12, 0.023)
+    ),
+    url("./assets/img/pexels-madison-inouye-1831234.jpg");
   padding: 0;
   margin: 0;
   background-size: cover;
-  background-position: left;
+  background-position: top;
 }
 .img-fecha {
   height: 45vh;
@@ -163,7 +169,7 @@ button:focus {
 
 .cuenta-regresiva {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   /* text-shadow: 1px 1px 2px rgba(20, 17, 17, 0.507); */
 }
 .txt-pink {
@@ -175,16 +181,16 @@ button:focus {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .main-phrase {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   height: min-content;
   margin: 0;
   /* background-color: #12141d; */
   background-image: linear-gradient(
-      rgba(5, 7, 12, 0.192),
+      rgba(5, 7, 12, 0.044),
       rgba(5, 7, 12, 0.023)
     ),
-    url("./assets/img/flor-4.jpeg");
+    url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -205,10 +211,10 @@ button:focus {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(
-      rgba(5, 7, 12, 0.103),
-      rgba(5, 7, 12, 0.116)
+      rgba(5, 7, 12, 0.308),
+      rgba(5, 7, 12, 0.335)
     ),
-    url("./assets/img/flor-1.jpeg");
+    url("./assets/img/renata1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -287,7 +293,7 @@ button:focus {
 }
 .cuenta-regresiva {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.7rem;
 }
 .cuenta {
   display: flex;
@@ -318,31 +324,49 @@ hr {
 }
 /* window */
 .window-back {
-  height: 100vh;
+  height: 50vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/flor-3.jpeg");
+  background-color: rgb(216, 186, 186);
+  /* background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: right;
+}
+.align-name {
+  align-items: end;
+  height: 100vh;
+  padding-bottom: 9rem;
 }
 .window-back2 {
   height: 100vh;
   margin: 0;
   padding: 0;
   background-color: rgb(216, 186, 186);
-  background-image: url("./assets/img/pexels-karolina-grabowska-4862892.jpg");
+  /* background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
 }
+.window-153 {
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/img/renata.jpeg");
+}
 .window-back3 {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/flor-2.jpeg");
+  background-image: url("./assets/img/renata2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -354,14 +378,19 @@ hr {
       ), */
 .window-15 {
   color: white;
-  height: 60vh;
+  height: 50vh;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: right;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-image: url("./assets/img/25.png"); */
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.527),
+      rgba(5, 7, 12, 0.514)
+    ),
+    url("./assets/img/renata.jpeg");
 }
 .window-152 {
   color: white;
@@ -377,23 +406,12 @@ hr {
       rgba(5, 7, 12, 0.527),
       rgba(5, 7, 12, 0.514)
     ),
-    url("./assets/img/captura-2.png");
+    url("./assets/img/samanes.png");
 }
-.window-153 {
-  color: white;
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: right;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url("./assets/img/flor-3.jpeg");
-}
+
 .window {
   color: white;
-  height: 40vh;
+  height: 0vh;
   margin: 0;
   padding: 0;
   display: flex;
@@ -452,7 +470,7 @@ hr {
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/flor-7.jpeg");
+    url("./assets/img/fiesta.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -472,10 +490,10 @@ hr {
   padding-bottom: 3rem;
   height: max-content;
   margin: 0;
-  background-image: url("./assets/img/pexels-karolina-grabowska-4862892.jpg");
+  background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: bottom;
 }
 .hora {
   font-size: 3.5rem;
@@ -526,10 +544,6 @@ h3 {
   /* height: 20px; */
   padding-top: 1%;
   width: 200px;
-}
-.image-25 {
-  width: 80%;
-  height: 30vh;
 }
 .container-ubicaciones {
   width: 70%;
@@ -599,13 +613,13 @@ button:hover {
   width: 50%;
 }
 .window-regalos {
-  height: min-content;
+  height: 80vh;
   max-width: 100%;
   background-image: linear-gradient(
       rgba(5, 7, 12, 0.277),
       rgba(5, 7, 12, 0.277)
     ),
-    url("./assets/img/pexels-teona-swift-6913054.jpg");
+    url("./assets/img/renata4.jpeg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -638,7 +652,7 @@ a:hover {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
   color: white;
-  background-image: url("./assets/img/pexels-karolina-grabowska-4862892.jpg");
+  background-image: url("./assets/img/pexels-karolina-grabowska-4040592.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -691,10 +705,20 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./assets/img/pexels-karolina-grabowska-4862892.jpg");
+  background-image: url("./assets/img/pexels-madison-inouye-1831234.jpg");
+}
+.familiares-information2 {
+  min-height: max-content;
+  margin: 0;
+  padding-bottom: 7rem;
+  /* background-color: #94815d; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assets/img/pexels-madison-inouye-1831234.jpg");
 }
 .card {
-  width: 100%;
+  width: 80%;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -736,7 +760,7 @@ a:hover {
       rgba(5, 7, 12, 0.393),
       rgba(5, 7, 12, 0.462)
     ),
-    url("./assets/img/flor-6.jpeg");
+    url("./assets/img/renata3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -814,7 +838,7 @@ a:hover {
   }
 
   .cuenta-regresiva {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .owl-container {
     width: 60%;
@@ -880,12 +904,11 @@ a:hover {
     display: block;
     max-width: 100%;
     min-width: 100%;
-    vertical-align: middle;
     border-style: none;
   }
   .btn-open img {
-    height: 20%;
-    width: 20%;
+    height: 40%;
+    width: 40%;
   }
   .card {
     height: 45vh;

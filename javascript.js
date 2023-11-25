@@ -11,12 +11,12 @@ function abrir() {
 
   window.scrollTo(0, 0);
   setTimeout(function () {
-    audio.play();
     document.getElementById("logo").classList.add("hide");
     document.getElementById("hoja-principal").classList.add("hide");
     document.getElementById("invitacion").classList.remove("hide");
     document.getElementById("name").classList.add("animate__zoomIn");
     document.getElementById("xv").classList.add("animate__slideInUp");
+    audio.play();
   }, 2500);
 }
 
@@ -24,19 +24,19 @@ function abrir() {
 
 playPause.addEventListener("click", () => {
   if (audio.paused || audio.ended) {
-    playPause.querySelector(".play-btn").classList.toggle("d-none");
     playPause.querySelector(".pause-btn").classList.toggle("d-none");
+    playPause.querySelector(".play-btn").classList.toggle("d-none");
     audio.play();
   } else {
     audio.pause();
-    playPause.querySelector(".play-btn").classList.toggle("d-none");
     playPause.querySelector(".pause-btn").classList.toggle("d-none");
+    playPause.querySelector(".play-btn").classList.toggle("d-none");
   }
 });
 
 // a regresiva -------------------------------------------------------------------
 // Set the date we're counting down to
-var countDownDate = new Date("Oct 29, 2022 18:00").getTime();
+var countDownDate = new Date("Dec 22, 2023 19:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
