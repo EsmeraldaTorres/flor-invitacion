@@ -325,6 +325,9 @@ hr {
   width: 50px;
 }
 /* window */
+.h-min-content {
+  height: min-content;
+}
 .window-back {
   height: 80vh;
   margin: 0;
@@ -601,7 +604,6 @@ a:hover {
   height: 70vh;
   max-width: 100%;
   background-image: url("./assets/img/freddy-4.jpeg");
-  background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
