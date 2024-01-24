@@ -3,21 +3,26 @@ const playPause = document.getElementById("play");
 
 function abrir() {
   document.getElementById("sobre-arriba").classList.add("animate__fadeOutUp");
-  document.getElementById("sobre-abajo").classList.add("animate__slideOutDown");
+  document.getElementById("logo").classList.add("d-none");
   document.getElementById("logo").classList.remove("animate__infinite");
-  document.getElementById("pulse").classList.add("hide");
+
   document.getElementById("parent-div").classList.remove("test-class");
   document.getElementsByTagName("body")[0].classList.remove("avoiding-scroll");
   audio.play();
 
   window.scrollTo(0, 0);
   setTimeout(function () {
+    document.getElementById("bg-black-first").classList.remove("d-flex");
+    document.getElementById("bg-black-first").classList.add("d-none");
+  }, 1500);
+
+  setTimeout(function () {
+    document.getElementById("name").classList.add("animate__zoomIn");
+
     document.getElementById("logo").classList.add("hide");
     document.getElementById("hoja-principal").classList.add("hide");
     document.getElementById("invitacion").classList.remove("hide");
-    document.getElementById("name").classList.add("animate__zoomIn");
-    document.getElementById("xv").classList.add("animate__slideInUp");
-  }, 2500);
+  }, 5000);
 }
 
 // auidio
@@ -34,9 +39,9 @@ playPause.addEventListener("click", () => {
   }
 });
 
-// a regresiva -------------------------------------------------------------------
+// Cuenta regresiva -------------------------------------------------------------------
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 22, 2023 19:00").getTime();
+var countDownDate = new Date("Apr 27, 2024 13:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
